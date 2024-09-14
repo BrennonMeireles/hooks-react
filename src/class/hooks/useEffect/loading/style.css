@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+
+    list-style: none;
+    width: 200px;
+}
+
+.container-card{
+    width: 100vw;
+    /* display: flex; */
+
+}
