@@ -1,0 +1,32 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid;
+    background-color: white;
+    width: 25%;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.exit-button-container{
+    text-align: end;
+    width: 100%;
+    /* background-color: aqua; */
+}
