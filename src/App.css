@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  border: 1px solid;
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
